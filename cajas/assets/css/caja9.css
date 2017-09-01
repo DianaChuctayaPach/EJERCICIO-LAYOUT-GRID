@@ -57,8 +57,10 @@ body{
     width: 35.5%;
     height: 500px;
     /* float: right; */
-    clear: both;
-    margin-left: 31%;
-    margin-top: 51.5%;
-    position: absolute;
+    clear: none;
+    margin-left: 40%;
+    /* margin-top: -42%; */
+    /* margin-top: -500px; se sube  */
+    margin-top: -42%; /*cuando lo minimizas se baja */
+    /* position: relative; */
 }
