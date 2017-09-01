@@ -1,0 +1,39 @@
+*{
+    font-family: 'Indie Flower', cursive;
+    /* outline: 2px solid green; */
+  }
+  h1{
+    color: rgba(13, 12, 15, 0.44);
+    font-size: 50px;
+  }
+  body{
+    background-image: url(../img/fondo.jpg);
+  }
+  .conteiner{
+      margin-left: 20px;
+      align-content: center;
+      /* position: relative; */
+  }
+  .boton{
+    padding: 3px;
+    background: #B62675;
+    border-radius: 40px ;
+    border: 2px solid #231207;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight:700;
+    
+  }
+  .boton:hover{
+    background: #CC3D8C;
+    border: 2px solid #E024D2;
+  }
+  a{
+      /* float: left; */
+      margin: 10px;
+      display: block;
+    /* clear: both; */
+  
+}

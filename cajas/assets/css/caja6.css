@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+    background: url('https://previews.123rf.com/images/jozefklopacka/jozefklopacka1512/jozefklopacka151200312/49182072-Pintura-rbol-paisaje-papel-pintado-y-mandala-ornamental-Fondo-oriental-collage-rojo-violeta-naranja--Foto-de-archivo.jpg');
+}
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0px auto;
+	/*background: purple;*/
+
+}
+.row:before, .row:after{
+	content: " ";
+	display: table;  /*le toma encuenta a las columnas */
+	
+
+
+}
+.row:after{
+	clear: both;
+}
+.row{
+    /* background: purple; */
+    padding: 2px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border: 2px solid purple;
+}
+[class*="col-"]{
+	min-height: 7px;
+	/* padding: 12px; */
+	float: left;
+    background: skyblue;
+    margin-top: 50%;
+    /* margin: 10px; */
+    /* border: 10px solid #540036; */
+  
+
+}
+.col-1 {
+    /* width:; */
+    /* height: 500px; */
+      float: left;
+    width: 67.777778%;
+    height: 500px;
+    /* height: 50%; */
+    
+   
+}
+.col-2{
+    width: 25%;
+    margin-left: 6%;
+    /* margin-right: 2%; */
+    height: 300px;
+}
